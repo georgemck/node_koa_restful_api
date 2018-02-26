@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-force-ssl": "0.0.5",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "chakram": "^1.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "mocha": "^5.0.1",
+    "raw-body": "^2.3.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "RESTful API CRUD for Titles",
+  "main": "server.js",
+  "author": "George McKinney",
+  "license": "ISC"
+}
